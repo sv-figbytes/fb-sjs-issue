@@ -16,7 +16,10 @@
         "tsConfig": "apps/fb-r/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/fb-r/src/favicon.ico", "apps/fb-r/src/assets"],
-        "styles": ["apps/fb-r/src/styles.scss"],
+        "styles": ["apps/fb-r/src/styles.scss",
+        "node_modules/survey-core/defaultV2.min.css",
+        "./node_modules/survey-core/defaultV2.css",
+        "./node_modules/survey-creator-core/survey-creator-core.css"],
         "scripts": []
       },
       "configurations": {
